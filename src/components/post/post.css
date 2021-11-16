@@ -1,0 +1,79 @@
+.post{
+    width: 100%;
+    -webkit-box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+    box-shadow: 0px 0px 16px -8px rgba(0, 0, 0, 0.68);
+    margin: 1.6rem 0rem;
+    border-radius: 1rem;
+    
+}
+.postWrap{
+    margin: 0.5rem;
+    padding: 1rem;
+    height: 100%;    
+}
+.postTop{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between  ;
+    padding: 0.1rem;
+    margin: 0.1rem;
+} 
+
+.postTopLeft{
+    display: flex;
+    align-items: center;
+}
+
+.postTopLeft img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 0.2rem;
+}
+
+.userName{
+    margin: 0rem 0.6rem;
+    font-size: medium;
+}
+
+.postDate{
+    font-size: small;
+    color: rgb(90, 90, 90);
+}
+
+.postCenter{
+    margin: 1rem 0rem;
+}
+
+.postCenter img{
+    width: 100%;
+    max-height: 450px;
+    margin: 0.6rem 0rem;
+    object-fit: cover; 
+}
+.postBottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.postBottomLeft{
+    display: flex;
+    align-items: center;
+}
+
+.postBottomLeft img{
+    width: 24px;
+    height: 24px;
+    margin-right: 0.5rem;
+    cursor: pointer;
+}
+.likCounter{
+    cursor: pointer;
+    margin-left: 0.5rem;
+}
+.postBottomRight{
+    cursor: pointer;
+}

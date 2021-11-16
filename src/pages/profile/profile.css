@@ -1,0 +1,37 @@
+.profileApp{
+    flex: 7.4; 
+    /* margin: 1rem;    */
+}
+
+.proFeedWrap{
+    padding: 1rem;
+}
+
+.profileCover{
+     height: 450px; 
+}
+
+.coverImg{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+.profileImg{
+    display: flex;
+    margin: auto;
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    border: 3px solid white;
+    position: relative;
+    top: -100px;
+    object-fit: cover;  
+} 
+.aboutProfile{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    top: -90px;
+}

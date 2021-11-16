@@ -1,0 +1,70 @@
+.rightbar{
+    flex: 2.3;   
+    /* height: calc(100vh - 60px); */
+    /* overflow-y: scroll; */
+    background-color: rgb(244, 245, 255);
+
+}
+.rightbarWrap{
+    padding: 0.6rem;
+}
+
+.birthdayContainer{
+    width: 100%;
+    display: flex;
+    /* align-items: center; */
+    margin: 0.8rem 0rem;
+} 
+
+.birthdayIcon{
+    /* font-size: large; */
+    margin-right: 10px;
+
+}
+
+.rightbarAd{
+    width: 100%;
+    margin: 0.6rem 0rem;
+}
+
+.onlineFriends{
+    margin-top: 1rem;
+    /* background-color: blue; */
+}
+
+.onlineTitle{
+    padding-left: 0.5rem;    
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+/* .onlineFriends span{
+    width: 12px;
+    width: 12px;
+    border-radius: 50%;
+    background-color: green;
+} */
+
+.onlineFriends ul{
+    list-style: none;
+    padding-bottom: 0.5rem;
+    padding-left: 0.1rem;
+    align-items: center;
+    
+}
+
+.onlineFriends li{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    border-radius: 0.8rem;
+    
+} 
+
+/* .onlineFriends li.active, .onlineFriends li:hover{
+    background-color: rgb(214, 214, 214);
+
+} */

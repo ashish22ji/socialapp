@@ -1,0 +1,36 @@
+.friendListWrap{
+    padding: 0.5rem 0.2rem;
+}
+
+/* .friendUl{
+
+} */
+
+.friendLi{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.friendImage{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 1px solid rgb(180, 180, 253);
+}
+
+.friendLi span{
+    margin: 0rem 5px;
+}
+
+.onlineBullet{
+    display: flex;
+    left: -12px;
+    top: -16px;
+    position: relative;
+    width: 13px;
+    height: 13px;
+    background-color: rgb(13, 160, 0);
+    border-radius: 50%;
+}

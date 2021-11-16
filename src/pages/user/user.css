@@ -1,0 +1,74 @@
+.userApp{
+    flex:7.4;
+    /* margin: 0.2rem 1rem; */
+    /* padding: 1rem;  */
+}
+
+.userWrap{
+    margin: 1.2rem 2rem;
+}
+
+
+.userIdentityWrap{
+    display: flex;
+    margin: 1.2rem 0rem;
+}
+.userContainer{
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    /* margin: 1rem 0rem; */
+    padding: 1.6rem;
+    flex: 1;
+    
+}
+.userEdit{
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    margin-left: 1.2rem;
+    padding: 1rem 1.6rem;
+    flex: 2;
+}
+
+
+
+.userTitle{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.userProfile{
+    display: flex;
+    align-items: center;
+    text-align: center;
+   
+}
+
+.userProfile img{
+    width: 3.2rem;
+    height: 3.2rem;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.userInfoDesc h4{
+    color: grey;
+    margin-top: 1.6rem;
+}
+
+.userInfo{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 0.8rem;
+}
+
+.userIdentity{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin: 0.8rem 0;
+    color: rgb(53, 53, 53);
+}
+

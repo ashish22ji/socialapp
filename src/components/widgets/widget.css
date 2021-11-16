@@ -1,0 +1,114 @@
+.widgetApp{
+    border-radius: 0.5rem;
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    margin: 1rem; 
+}
+.widgetApp:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 3px 15px;
+}
+
+
+.widgetWrap{
+    width: 100%;
+    padding: 10px 0px 10px 25px;
+}
+
+.widgetTitle{
+    margin: 0.8rem 0rem 1rem 0rem;
+}
+.widgetTable{
+     /* width: 100%; */
+     text-align: center;
+     align-items: center;
+}
+
+.widgetTr{    
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    /* align-items: center; */
+    display: flex;
+}
+
+.widgetTr td{
+ width: 100%;
+    /* text-align: center;
+    align-items: center; */
+    text-align: left ;
+}
+.widgetTh{
+    width: 100%;
+    text-align: left ;
+    /* border:2px solid blue; */
+    /* text-align: center; */
+    align-items: center;
+    
+}
+
+.widgetCustomer{
+    display: flex;
+    align-items: center;
+    /* background-color: tomato; */
+    text-align: center;
+    /* margin: 0;
+    padding: 0;
+    width: 100%; */
+    height: 100%;
+    }
+
+
+.widgetImg{
+width: 2.8rem;
+height: 2.8rem;
+border-radius: 50%;
+object-fit: cover;
+margin: 0.2rem 0.5rem 0.2rem 0rem;
+text-align: center;
+align-items: center;
+/* margin: 0;
+padding: 0;
+     */
+}
+
+.widgetButton{
+    padding:  0.5rem;
+    border-radius: 0.6rem;
+    text-align: center;
+    align-items: center;   
+}
+
+.widgetDisplay button{
+    width: 6rem;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 0.2rem;
+    justify-content: space-around;
+    border-radius: 0.5rem;
+    border:2px solid #d4d8ff;
+    background-color:#b5bcff ;
+}
+
+.widgetButton{
+   width: 5rem;
+}
+
+.widgetButton:hover{
+   cursor: pointer;
+}
+
+.widgetButton.Approved{
+    background-color: #93ff93;
+    border:2px solid #c8ffc8;
+}
+
+.widgetButton.Declined{
+   background-color: #ff4444;
+   border:2px solid #ff7373;
+}
+
+.widgetButton.Pending{
+   background-color: #fffd75;
+   border:2px solid #fffea9;
+}
